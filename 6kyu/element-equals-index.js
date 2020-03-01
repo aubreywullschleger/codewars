@@ -1,5 +1,4 @@
-function indexEqualsValue(a) {
-  let arr = a
+const indexEqualsValue = a => {
   for (let i = 0; i < a.length; i++) {
     if(a[i] === i) {
       return i
